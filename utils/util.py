@@ -2,9 +2,6 @@
 """
 import re
 import base64
-
-import numpy as np
-
 from PIL import Image
 from io import BytesIO
 
