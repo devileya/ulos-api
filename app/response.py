@@ -1,10 +1,10 @@
 from flask import jsonify, make_response
 
 
-def ok(values, message):
+def ok(id, name):
     res = {
-        'values': values,
-        'message': message
+        'id': id,
+        'name': name
     }
 
     return make_response(jsonify(res)), 200
